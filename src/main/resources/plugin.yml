@@ -1,0 +1,21 @@
+name: ArtemisKits
+version: 1.0.0
+main: pl.artemis.kits.ArtemisPlugin
+api-version: '1.21'
+author: Ty
+commands:
+  kits:
+    description: Odbierz swojego kita
+    usage: /kits
+  edytujkit:
+    description: Edytuj zawartość kita
+    usage: /edytujkit <nazwa>
+    permission: artemis.admin
+  odbierz:
+    description: Odbierz set Artemidy
+    usage: /odbierz set
+    permission: artemis.admin
+permissions:
+  artemis.admin:
+    description: Edycja kitów i odbiór setów
+    default: op
